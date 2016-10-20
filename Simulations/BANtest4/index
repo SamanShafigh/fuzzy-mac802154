@@ -1,0 +1,13 @@
+
+2: allNodesVaryRate,General,[TM1,TM5,TM10][Standing,Walking,Running]
+3: ZigBeeMAC,allNodesVaryRate,GTSon,General,[Standing,Walking,Running]
+4: allNodesVaryRate,General,Standing,[TM01,TM03,TM06,TM09,TM12,TM15,TM1]ls
+5: allNodesVaryRate,General,[TM01][Standing,Walking,Running]   Paket Rate(5-120)
+6: allNodesVaryRate,General,[TM01][Standing,Walking,Running]     Paket Rate(1-13)
+
+
+
+11p: CastaliaResults -i t11.txt -s "Packet break" | CastaliaPlot -o 11p.jpg -s stacked --colors b,dc,pi,y,o,r -l "outside width -7" --xrotate 90 
+
+11r: CastaliaResults -i t11.txt -s "RX pkt break" | CastaliaPlot -o 11r.jpg -s stacked --colors b,dc,pi,y,o,r -l "outside width -7" --xrotate 90 
+

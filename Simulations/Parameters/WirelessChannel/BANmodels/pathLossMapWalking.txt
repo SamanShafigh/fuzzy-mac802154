@@ -1,0 +1,13 @@
+#0 is R-hip
+#1 is L-wrist
+#2 is R-wrist
+#3 is L-ankle
+#4 is R-ankle
+#5 is chest
+
+1>0:63.3
+2>0:38.4
+3>0:55.5
+4>0:48.1
+5>0:52.9
+

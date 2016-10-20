@@ -1,0 +1,1010 @@
+Castalia| what:ZigBeeMAC,General,[GTSon,GTSoff] (5)
+Castalia| when:2012-05-23 08:26
+Castalia| label:GTSon
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 1 8 8 13 44 136 279 604 1075 1719 1438 403 17 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158081 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			42 Failed, below sensitivity
+Castalia|			243 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			668 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			231 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 0 22 0 22 0 30 0 16 0 19 0 14 0 12 0 14 0 14 0 9 0 7 0 8 0 2 0 2 0 5 35
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0147723 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			38 Failed, below sensitivity
+Castalia|			262 Failed, non RX state
+Castalia|			646 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			4 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00288977 
+Castalia|		simple output name:Number of beacons received
+Castalia|			395 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0148039 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			19 Failed, below sensitivity
+Castalia|			262 Failed, non RX state
+Castalia|			661 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.0029062 
+Castalia|		simple output name:Number of beacons received
+Castalia|			421 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0136192 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			60 Failed, below sensitivity
+Castalia|			602 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			280 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00295762 
+Castalia|		simple output name:Number of beacons received
+Castalia|			373 
+Castalia|		simple output name:Packet breakdown
+Castalia|			28 Failed, no ack
+Castalia|			216 Success, first try
+Castalia|			3 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0141678 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			36 Failed, below sensitivity
+Castalia|			264 Failed, non RX state
+Castalia|			649 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000560892 
+Castalia|		simple output name:Number of beacons received
+Castalia|			400 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0139005 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			77 Failed, below sensitivity
+Castalia|			259 Failed, non RX state
+Castalia|			611 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00059289 
+Castalia|		simple output name:Number of beacons received
+Castalia|			384 
+Castalia| label:GTSon
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 2 3 9 24 41 119 247 568 1088 1725 1597 357 13 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158073 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			39 Failed, below sensitivity
+Castalia|			247 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			672 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			233 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 66 26 43 26 37 0 7 1 3 3 5 0 4 0 2 0 1 0 0 0 3 1 1 0 1 0 0 0 0 0 3
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0139738 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			40 Failed, below sensitivity
+Castalia|			385 Failed, non RX state
+Castalia|			529 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00294308 
+Castalia|		simple output name:Number of beacons received
+Castalia|			392 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0148037 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			9 Failed, below sensitivity
+Castalia|			389 Failed, non RX state
+Castalia|			560 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00287418 
+Castalia|		simple output name:Number of beacons received
+Castalia|			422 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0162312 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			54 Failed, below sensitivity
+Castalia|			611 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			286 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.0146012 
+Castalia|		simple output name:Number of beacons received
+Castalia|			370 
+Castalia|		simple output name:Packet breakdown
+Castalia|			1 Failed, no PAN
+Castalia|			25 Failed, no ack
+Castalia|			219 Success, first try
+Castalia|			4 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0143962 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			22 Failed, below sensitivity
+Castalia|			386 Failed, non RX state
+Castalia|			544 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00291245 
+Castalia|		simple output name:Number of beacons received
+Castalia|			400 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0139369 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			54 Failed, below sensitivity
+Castalia|			378 Failed, non RX state
+Castalia|			517 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000521122 
+Castalia|		simple output name:Number of beacons received
+Castalia|			387 
+Castalia| label:GTSon
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 4 10 13 16 45 107 258 516 1137 1672 1567 463 18 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158003 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			49 Failed, below sensitivity
+Castalia|			247 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			672 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			229 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 53 59 0 69 0 18 0 6 0 7 1 4 0 2 0 4 0 0 0 1 1 0 0 0 0 1 0 0 0 2 1
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0140263 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			35 Failed, below sensitivity
+Castalia|			369 Failed, non RX state
+Castalia|			561 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000877977 
+Castalia|		simple output name:Number of beacons received
+Castalia|			395 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0145153 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			11 Failed, below sensitivity
+Castalia|			369 Failed, non RX state
+Castalia|			586 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000942685 
+Castalia|		simple output name:Number of beacons received
+Castalia|			421 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0155394 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			53 Failed, below sensitivity
+Castalia|			618 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			289 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00789234 
+Castalia|		simple output name:Number of beacons received
+Castalia|			366 
+Castalia|		simple output name:Packet breakdown
+Castalia|			25 Failed, no ack
+Castalia|			217 Success, first try
+Castalia|			7 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.014042 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			22 Failed, below sensitivity
+Castalia|			368 Failed, non RX state
+Castalia|			572 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000920482 
+Castalia|		simple output name:Number of beacons received
+Castalia|			407 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0147895 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			45 Failed, below sensitivity
+Castalia|			358 Failed, non RX state
+Castalia|			548 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			4 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00322926 
+Castalia|		simple output name:Number of beacons received
+Castalia|			394 
+Castalia| label:GTSon
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 4 2 10 23 58 121 289 615 1136 1772 1440 411 17 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158074 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			55 Failed, below sensitivity
+Castalia|			248 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			673 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			236 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 28 42 14 57 29 45 1 2 0 5 1 5 1 1 1 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0141867 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			33 Failed, below sensitivity
+Castalia|			369 Failed, non RX state
+Castalia|			573 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000724606 
+Castalia|		simple output name:Number of beacons received
+Castalia|			398 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0145884 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			7 Failed, below sensitivity
+Castalia|			367 Failed, non RX state
+Castalia|			602 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.0007323 
+Castalia|		simple output name:Number of beacons received
+Castalia|			424 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.013818 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			63 Failed, below sensitivity
+Castalia|			617 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			298 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000739923 
+Castalia|		simple output name:Number of beacons received
+Castalia|			386 
+Castalia|		simple output name:Packet breakdown
+Castalia|			41 Failed, no ack
+Castalia|			202 Success, first try
+Castalia|			6 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0143829 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			26 Failed, below sensitivity
+Castalia|			368 Failed, non RX state
+Castalia|			568 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00307752 
+Castalia|		simple output name:Number of beacons received
+Castalia|			398 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0149113 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			65 Failed, below sensitivity
+Castalia|			358 Failed, non RX state
+Castalia|			527 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			6 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00782655 
+Castalia|		simple output name:Number of beacons received
+Castalia|			383 
+Castalia| label:GTSon
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 3 6 9 29 46 127 276 597 1139 1740 1487 380 9 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158076 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			63 Failed, below sensitivity
+Castalia|			238 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			663 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			224 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 64 0 64 0 64 0 8 0 7 0 7 0 1 0 5 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0157863 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			47 Failed, below sensitivity
+Castalia|			321 Failed, non RX state
+Castalia|			585 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			6 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00955755 
+Castalia|		simple output name:Number of beacons received
+Castalia|			385 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0147355 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			13 Failed, below sensitivity
+Castalia|			329 Failed, non RX state
+Castalia|			627 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00256239 
+Castalia|		simple output name:Number of beacons received
+Castalia|			423 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.013627 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			71 Failed, below sensitivity
+Castalia|			597 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			300 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00248029 
+Castalia|		simple output name:Number of beacons received
+Castalia|			365 
+Castalia|		simple output name:Packet breakdown
+Castalia|			42 Failed, no ack
+Castalia|			198 Success, first try
+Castalia|			8 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.014313 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			27 Failed, below sensitivity
+Castalia|			329 Failed, non RX state
+Castalia|			607 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00249028 
+Castalia|		simple output name:Number of beacons received
+Castalia|			398 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0137962 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			63 Failed, below sensitivity
+Castalia|			326 Failed, non RX state
+Castalia|			576 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00259456 
+Castalia|		simple output name:Number of beacons received
+Castalia|			385 
+Castalia| label:GTSoff
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 4 8 7 27 46 126 269 576 1195 1699 1592 476 19 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158089 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			47 Failed, below sensitivity
+Castalia|			263 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			688 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			227 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 71 68 0 68 0 5 0 6 0 5 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0408006 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			41 Failed, below sensitivity
+Castalia|			20 Failed, non RX state
+Castalia|			934 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000552476 
+Castalia|		simple output name:Number of beacons received
+Castalia|			396 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0431992 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			23 Failed, below sensitivity
+Castalia|			1 Failed, non RX state
+Castalia|			969 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.0029062 
+Castalia|		simple output name:Number of beacons received
+Castalia|			421 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0404726 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			44 Failed, below sensitivity
+Castalia|			671 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			285 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00291862 
+Castalia|		simple output name:Number of beacons received
+Castalia|			390 
+Castalia|		simple output name:Packet breakdown
+Castalia|			32 Failed, no ack
+Castalia|			214 Success, first try
+Castalia|			3 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0407656 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			39 Failed, below sensitivity
+Castalia|			17 Failed, non RX state
+Castalia|			946 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000560892 
+Castalia|		simple output name:Number of beacons received
+Castalia|			396 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0418999 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			133 Failed, below sensitivity
+Castalia|			25 Failed, non RX state
+Castalia|			802 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			32 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00998447 
+Castalia|		simple output name:Number of beacons received
+Castalia|			387 
+Castalia| label:GTSoff
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 3 2 2 19 46 100 215 578 1078 1666 1520 373 7 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158082 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			44 Failed, below sensitivity
+Castalia|			233 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			658 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			227 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 65 67 0 61 0 9 0 7 0 9 0 3 0 2 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0418686 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			29 Failed, below sensitivity
+Castalia|			6 Failed, non RX state
+Castalia|			894 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00287668 
+Castalia|		simple output name:Number of beacons received
+Castalia|			406 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0432656 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			24 Failed, below sensitivity
+Castalia|			2 Failed, non RX state
+Castalia|			901 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00288512 
+Castalia|		simple output name:Number of beacons received
+Castalia|			422 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0391151 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			47 Failed, below sensitivity
+Castalia|			610 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			272 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00291628 
+Castalia|		simple output name:Number of beacons received
+Castalia|			374 
+Castalia|		simple output name:Packet breakdown
+Castalia|			22 Failed, no ack
+Castalia|			227 Success, first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0417125 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			30 Failed, below sensitivity
+Castalia|			11 Failed, non RX state
+Castalia|			887 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00286692 
+Castalia|		simple output name:Number of beacons received
+Castalia|			404 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0405343 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			96 Failed, below sensitivity
+Castalia|			32 Failed, non RX state
+Castalia|			789 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00762417 
+Castalia|		simple output name:Number of beacons received
+Castalia|			378 
+Castalia| label:GTSoff
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 3 3 11 20 48 124 249 548 1011 1689 1443 477 8 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158012 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			36 Failed, below sensitivity
+Castalia|			238 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			663 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			231 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 70 68 0 69 0 5 0 6 0 6 0 1 0 3 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0404317 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			49 Failed, below sensitivity
+Castalia|			37 Failed, non RX state
+Castalia|			847 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			2 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00325218 
+Castalia|		simple output name:Number of beacons received
+Castalia|			385 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0429952 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			16 Failed, below sensitivity
+Castalia|			4 Failed, non RX state
+Castalia|			912 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000901341 
+Castalia|		simple output name:Number of beacons received
+Castalia|			422 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0398241 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			47 Failed, below sensitivity
+Castalia|			619 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			271 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00319416 
+Castalia|		simple output name:Number of beacons received
+Castalia|			378 
+Castalia|		simple output name:Packet breakdown
+Castalia|			20 Failed, no ack
+Castalia|			229 Success, first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0417581 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			22 Failed, below sensitivity
+Castalia|			18 Failed, non RX state
+Castalia|			892 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000913592 
+Castalia|		simple output name:Number of beacons received
+Castalia|			407 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0398054 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			101 Failed, below sensitivity
+Castalia|			28 Failed, non RX state
+Castalia|			793 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000993218 
+Castalia|		simple output name:Number of beacons received
+Castalia|			384 
+Castalia| label:GTSoff
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 3 3 8 26 55 131 297 589 1058 1693 1449 411 11 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158083 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			47 Failed, below sensitivity
+Castalia|			236 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			661 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			229 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 67 0 63 0 65 0 8 0 8 0 9 0 1 0 1 0 4 0 1 0 1 0 0 0 0 0 0 0 1 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0397905 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			58 Failed, below sensitivity
+Castalia|			23 Failed, non RX state
+Castalia|			868 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.000724606 
+Castalia|		simple output name:Number of beacons received
+Castalia|			384 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0428931 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			26 Failed, below sensitivity
+Castalia|			2 Failed, non RX state
+Castalia|			922 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.0007323 
+Castalia|		simple output name:Number of beacons received
+Castalia|			421 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0391543 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			57 Failed, below sensitivity
+Castalia|			610 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			286 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00307231 
+Castalia|		simple output name:Number of beacons received
+Castalia|			371 
+Castalia|		simple output name:Packet breakdown
+Castalia|			26 Failed, no ack
+Castalia|			214 Success, first try
+Castalia|			9 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0419934 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			29 Failed, below sensitivity
+Castalia|			7 Failed, non RX state
+Castalia|			907 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00308977 
+Castalia|		simple output name:Number of beacons received
+Castalia|			407 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0393792 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			108 Failed, below sensitivity
+Castalia|			30 Failed, non RX state
+Castalia|			792 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			6 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00548286 
+Castalia|		simple output name:Number of beacons received
+Castalia|			369 
+Castalia| label:GTSoff
+Castalia|	module:SN.wirelessChannel
+Castalia|		histogram name:Fade depth distribution
+Castalia|		histogram_min:-50 histogram_max:15
+Castalia|		histogram_values 0 3 5 29 62 117 294 634 1096 1663 1365 351 9 0
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.158084 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37 Failed, below sensitivity
+Castalia|			234 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			659 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:Number of beacons sent
+Castalia|			425 
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			227 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:600
+Castalia|		histogram_values 62 0 64 0 61 0 11 0 6 0 2 0 6 0 5 0 5 0 0 0 0 0 3 0 0 0 1 0 0 0 1
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0408756 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			39 Failed, below sensitivity
+Castalia|			15 Failed, non RX state
+Castalia|			879 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00252257 
+Castalia|		simple output name:Number of beacons received
+Castalia|			395 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0432641 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			20 Failed, below sensitivity
+Castalia|			910 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00257771 
+Castalia|		simple output name:Number of beacons received
+Castalia|			423 
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0391663 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			61 Failed, below sensitivity
+Castalia|			595 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			275 TX pkts
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00949182 
+Castalia|		simple output name:Number of beacons received
+Castalia|			357 
+Castalia|		simple output name:Packet breakdown
+Castalia|			22 Failed, no ack
+Castalia|			226 Success, first try
+Castalia|			1 Success, not first try
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0423541 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18 Failed, below sensitivity
+Castalia|			4 Failed, non RX state
+Castalia|			913 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00249028 
+Castalia|		simple output name:Number of beacons received
+Castalia|			412 
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			0.0394984 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			130 Failed, below sensitivity
+Castalia|			23 Failed, non RX state
+Castalia|			760 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1 TX pkts
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:Fraction of time without PAN connection
+Castalia|			0.00250189 
+Castalia|		simple output name:Number of beacons received
+Castalia|			379 
