@@ -1,0 +1,35 @@
+
+Dar file FuzzyOperator ye bug hast:
+
+khate zir:
+        FuzzyOperator(const FuzzyOperation* tnorm = new FuzzyAndMin,
+                const FuzzyOperation* snorm = new FuzzyOrMax,
+                const FuzzyOperation* cmod = new FuzzyModClip,
+                const FuzzyOperation* aggregation = new FuzzyOrMax,
+                const FuzzyDefuzzifier* defuzzifier = new CoGDefuzzifier,
+                const AreaCentroidAlgorithm* algorithm = new TrapezoidalAlgorithm,
+                int number_of_samples = FL_SAMPLE_SIZE);
+        virtual ~FuzzyOperator();
+
+Be zir tabdil shavad
+  FuzzyOperator(const FuzzyOperation* tnorm = new FuzzyAndMin,
+                const FuzzyOperation* snorm = new FuzzyOrMax,
+                const FuzzyOperation* cmod = new FuzzyModClip,
+                const FuzzyOperation* aggregation = new FuzzyOrMax,
+                const FuzzyDefuzzifier* defuzzifier = new CoGDefuzzifier,
+                const AreaCentroidAlgorithm* algorithm = new TriangulationAlgorithm,
+                int number_of_samples = FL_SAMPLE_SIZE);
+        virtual ~FuzzyOperator();
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
